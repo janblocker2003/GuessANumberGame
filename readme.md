@@ -1,6 +1,9 @@
 #Algorithm for guesser game
 
 ```
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 main():
     make a 20 length char array -> userName
     make an integer -> guess & initialize first value
@@ -30,7 +33,9 @@ main():
     elif turns > 7:
         say "You did alright"
     else:
+
         say "You did good"
-    
+    return nothing
+//end the main loop
 ```
 
